@@ -1,33 +1,93 @@
-.Navigation {
-    display: inline-block;
-    vertical-align: top;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.logo {
-width: 23%;
-padding: 1%;
-text-align: center;
+
+header {
+  height: 800px;
+  background-image: url("../Images/HeroImage.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  place-items: center;
+  position: relative;
 }
-#nav {
-    width: 73%;
-    padding: 1%;
+
+nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
 }
-.NavList {
-    width: 50%;
-    margin-left: auto;
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  color: white;
+  list-style: none;
+  font-size: 24px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.HeroImg {
-    height: 600px;
-    padding: 25%;
+
+#hero-center{
+    text-align: center;
+    color: white;
 }
-.content {
-    width: 500px;
-    margin: 0 auto;
+
+
+.Content {
+  width: 500px;
+  margin: 0 auto;
+  flex: 1;
+  border: 1px;
+  margin-left: 40px;
+  justify-content: space-between;
+  padding: 30px;
 }
-.Footer {
-    background-color: 373738;
+footer {
+  background-color: blue;
+  height: 200px;
 }
 .FooterList {
-    margin: 0 auto;
-    display: inline-block;
-    vertical-align: top;
+  margin: auto;
+  color: white;
+  padding: 30px;
+  display: flex;
+    list-style: none;
+  font-size: 24px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.listitem {
+    flex: 1;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.name {
+    text-align: center;
+}
+.Section2 {
+    display: flex;
+}
+.Quote {
+    flex: 1;
+    margin-right: 40px;
+    padding-top: 80px;
+    padding-left: 30px;
+    }
+button {
+    background-color: blue;
+    color: white;
+}
+.Section3 {
+   margin-left: 20%;
+   margin-right: 20%;
+   padding-bottom: 40px;
+   padding-top: 20px;
 }
